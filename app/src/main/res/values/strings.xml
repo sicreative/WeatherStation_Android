@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherStation</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="altitude">Altitude</string>
+    <string name="pm1">PM 1</string>
+    <string name="pm25">PM 2.5</string>
+    <string name="pm10">PM 10</string>
+    <string name="iaq">Indoor Air Quality</string>
+    <string name="eco2">eCO2</string>
+    <string name="evoc">eVOC</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="gas">GAS</string>
+    <string name="fan">FAN</string>
+    <string name="light">Light</string>>
+    <string name="temperature_icon">🌡</string>
+    <string name="humidity_icon">💦</string>
+    <string name="pressure_icon">🌪</string>
+    <string name="altitude_icon">🌍</string>
+    <string name="pm1_icon">🌫</string>
+    <string name="pm25_icon">🌫</string>
+    <string name="pm10_icon">🌫</string>
+    <string name="iaq_icon">🏠</string>
+
+    <string name="eco2_icon">🌬</string>
+    <string name="evoc_icon">🌬</string>
+    <string name="accuracy_icon">⏱</string>
+    <string name="gas_icon">🌬</string>
+    <string name="fan_icon">💨</string>
+    <string name="light_icon">💡</string>>
+
+    <string name="clear_logging">Clear Logging</string>
+
+
+</resources>
