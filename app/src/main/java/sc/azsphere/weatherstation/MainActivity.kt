@@ -35,8 +35,8 @@ class MainActivity : AppCompatActivity(),JsonCallBack<String>,ConnectivityManage
 
 
     lateinit var jsonCallBack:JsonCallBack<String>
-    private lateinit var recyclerView: Fragment
-    private lateinit var viewAdapter: RecyclerView.Adapter<*>
+
+    lateinit var viewAdapter: RecyclerView.Adapter<*>
     private lateinit var viewManager: RecyclerView.LayoutManager
     lateinit var sensorList: MutableList<SensorItem>
 
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity(),JsonCallBack<String>,ConnectivityManage
 
     override fun onNetworkActive() {
 
-        if (!jsonReading)
+
             runBlocking { startHttpReading() }
 
 
@@ -186,6 +186,9 @@ class MainActivity : AppCompatActivity(),JsonCallBack<String>,ConnectivityManage
 
 
         val fragment = SensorFragment.newInstance(0)
+
+
+
         supportFragmentManager.beginTransaction().add(R.id.fragment_container,fragment).commit()
 
         findViewById<Button>(R.id.clearbutton).setOnClickListener{

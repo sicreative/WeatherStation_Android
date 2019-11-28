@@ -46,7 +46,7 @@ class SensorFragment : Fragment() {
                     columnCount <= 1 -> LinearLayoutManager(context)
                     else -> GridLayoutManager(context, columnCount)
                 }
-                adapter = SensorRecyclerViewAdapter((activity as MainActivity).sensorList, listener)
+                adapter = (activity as MainActivity).viewAdapter
             }
         }
 
